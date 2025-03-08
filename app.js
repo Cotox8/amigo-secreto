@@ -1,7 +1,6 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 let listaNombres = [];
 let largoArray             = 0;
-let indiceArray            = 0;
 let nombreEscrito          = '';
 let nombreAmigoSecreto         = '' ;
 
@@ -19,6 +18,7 @@ function agregarAmigo()
             if (listaNombres.includes(nombreEscrito))
             {
                 alert("Ya existe");
+                limpiarCaja();  
             }else{
                 listaNombres.push(nombreEscrito) 
 
